@@ -19,7 +19,7 @@ public class HelloController {
     @RequestMapping("hi")
     @ResponseBody
     public String hiService(@RequestParam String name) {
-        return helloService.hiService(name);
+        return helloService.hiService(name + "(ribbon)");
     }
 
 }
