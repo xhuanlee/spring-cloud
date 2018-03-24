@@ -9,4 +9,4 @@ feign:
     enabled: true
 spring:
   application:
-    name: eureka-feign
+    name: service-feign
