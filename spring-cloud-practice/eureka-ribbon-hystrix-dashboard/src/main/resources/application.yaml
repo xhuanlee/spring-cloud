@@ -3,7 +3,7 @@ server:
 eureka:
   client:
     service-url:
-      default-zone: http://localhsot:8761/eureka/
+      defaultZone: http://localhsot:8761/eureka/
 spring:
   application:
     name: service-ribbon-hystrix-dashboard
